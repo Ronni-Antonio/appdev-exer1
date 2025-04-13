@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">FinalExer1</string>
+    <string-array name="productNames">
+        <item>Oracle Red Bull Racing 2022 Max Verstrappen World Champion Cap</item>
+        <item>Red Bull Racing Max Verstrappen 2024 F1 World Driver\'s Champion Poster</item>
+        <item>Red Bull Racing Max Verstrappen Expression Driver Hoodie - Orange - Unisex</item>
+        <item>Red Bull Racing Max Verstrappen Puzzle Driver T-Shirt - Orange - Unisex</item>
+        <item>red Bull Racing Max Verstrappen Dutch Grand Prix Collectors\'s Edition Poster - 2024</item>
+        <item>Oracle Red Bull Racing Max Verstrappen Driver T-Shirt - Unisex</item>
+        <item>Red Bull Racing Max Verstrappen Helmet Full Zip Hoodie - Unisex</item>
+        <item>Red Bull Racing RB18 No.1 Winner Japanese GP 2022 - Max Verstrappen World Champion - 1:12 Model with Board</item>
+        <item>Red Bull Racing New Era Team Cuff Beanie - Navy</item>
+        <item>Red Bull Racing New Era Max Verstrappen 9SEVENTY Piped Cap - Navy</item>
+        <item>Red Bull Racing 2024 New Era Sergio Perez 9FORTY Cap</item>
+        <item>Red Bull Racing Graphic Bull T-Shirt - White - Unisex</item>
+        <item>Red Bull Racing 2025 Team Full Zip Hoodie - Unisex</item>
+        <item>Red Bull Racing Core Logo Polo - Navy - Unisex</item>
+        <item>Red Bull Racing Core Logo T-Shirt - Navy - Unisex</item>
+        <item>Red Bull Racing New Era Seasonal Repreve E-Frame Trucker Cap</item>
+        <item>Red Bull Racing 2025 Team Polo</item>
+        <item>Red Bull Racing Core Logo Polo - White - Unisex</item>
+    </string-array>
+
+    <string-array name="productPrices">
+        <item>15.00</item>
+        <item>129.00</item>
+        <item>85.00</item>
+        <item>39.00</item>
+        <item>103.00</item>
+        <item>18.30</item>
+        <item>91.00</item>
+        <item>527.04</item>
+        <item>42.00</item>
+        <item>55.00</item>
+        <item>14.64</item>
+        <item>46.00</item>
+        <item>137.00</item>
+        <item>68.00</item>
+        <item>39.00</item>
+        <item>18.30</item>
+        <item>101.00</item>
+        <item>68.00</item>
+    </string-array>
+    <integer-array name="productImages">
+        <item>@drawable/max_champion_cap</item>
+        <item>@drawable/max_champion_poster</item>
+        <item>@drawable/max_orange_hoodie</item>
+        <item>@drawable/max_orange_shirt</item>
+        <item>@drawable/max_poster</item>
+        <item>@drawable/max_tshirt</item>
+        <item>@drawable/max_white_hoodie</item>
+        <item>@drawable/model_board</item>
+        <item>@drawable/redbull_beanie</item>
+        <item>@drawable/redbull_cap</item>
+        <item>@drawable/redbull_cap2024</item>
+        <item>@drawable/redbull_graphict</item>
+        <item>@drawable/redbull_jacket</item>
+        <item>@drawable/redbull_polo</item>
+        <item>@drawable/redbull_shirt</item>
+        <item>@drawable/redbull_truckercap</item>
+        <item>@drawable/redbull_tshirt</item>
+        <item>@drawable/white_polo</item>
+    </integer-array>
+
+    <string name="maxchampcap">
+        Celebrate Max Verstappen\'s incredible back to back world championship victories with this Make It A Double cap.
+        Featuring graphics displaying the years – 2021 and 2022 – that he brought home the winner\'s trophy, this is the
+        perfect souvenir for fans everywhere to celebrate a moment of true F1 history.
+    </string>
+
+    <string name="maxchamppos">
+        Immortalize Max Verstappen\'s four consecutive F1 World Drivers\' Championship titles with this incredible poster.
+        Featuring stylish artwork of Verstappen and his car it evokes speed, determination and achievement, the perfect
+        addition to any Formula One fan\'s space. The poster is a collaboration between Automobilist, Oracle Red Bull
+        Racing, and Madebycito, created to celebrate Max Verstappen\'s 4th World Championship title. Due to the nature
+        of Madebycito\'s graffiti-style artwork, minor variations may exist between the product image and the final poster.
+    </string>
+
+    <string name="maxorangehood">
+        Get a warmer feel with this fantastic hoodie. The iconic F1 branding will make sure you have a great way to show off
+        your support whatever the weather.
+    </string>
+
+    <string name="maxpost">
+        Decorate your home in real racing style with this great F1 poster. This is the ideal way to showcase your love of
+        everything about Formula One.
+    </string>
+
+    <string name="maxorangshirt">
+        Wear the love of your chosen Team at any time. Everyone needs t-shirts so make sure yours is built with F1 precision
+        and style.
+    </string>
+
+    <string name="maxtshirt">
+        Show off your passion for the thrill of Formula One and the skill of the Red Bull Racing team with the official Driver
+        Fanwear Collection. This tee features an \'MV1\' graphic and RBR team logo on the chest and a colour fade pattern for a
+        distinctive but classic F1 look. The classic cut and comfortable fit make it great for everyday wear.
+    </string>
+
+    <string name="beanie">
+        Top off your look with one of the biggest names in Formula One. Your loyalty will be on proud display with this hat that
+        will carry your passion for F1 to new heights.
+    </string>
+
+    <string name="modelboard">
+        Own a keepsake of an iconic part of the Formula 1 experience. A brilliant souvenir to remind you of classic moments, and
+        a great decoration as well.
+    </string>
+
+    <string name="whitehood">
+        Get a warmer feel with this fantastic hoodie. The iconic F1 branding will make sure you have a great way to show off your
+        support whatever the weather.
+    </string>
+
+    <string name="redbullcap">
+        Get the look of your favourite racing team. This iconic item will add some speed style to any other outfit and you can show
+        off your allegiance whether trackside or anywhere else!
+    </string>
+
+    <string name="cap2024">
+        Get set for the 2024 F1 season in unbeatable Red Bull Racing style with the official New Era team collection. This Sergio Perez
+        cap features his car number 11 on the brim and a high structured crown, with an adjustable snapback closure for a perfect fit
+        and an Oracle Red Bull Racing patch sewn to the front crown.
+    </string>
+
+    <string name="graphict">
+        Wear the love of your chosen Team at any time. Everyone needs t-shirts so make sure yours is built with F1 precision and style.
+    </string>
+
+    <string name="redbulljacket">
+        Show your support for Red Bull Racing right out of the gate as Liam Lawson joins Max Verstappen on the track for the 2025 season.
+        This full zip hoodie features a straight cut through the body for a sleek and comfortable fit and features highly detailed team
+        and sponsor branding on the chest, back and sleeves. The hood rounds out the silhouette while giving you extra warmth and cover
+        when you need it.
+    </string>
+
+    <string name="redbullpolo">
+        Feel like a bona fide member of the team in this stylish polo. This iconic garment is synonymous with the F1 image and will strike
+        a great look any time.
+    </string>
+
+    <string name="redbullshirt">
+        Wear the love of your chosen Team at any time. Everyone needs t-shirts so make sure yours is built with F1 precision and style.
+    </string>
+
+    <string name="truckercap">
+        Keep the sun off and flaunt your style. This is the perfect way to stay cool and strut your stuff like a pro.
+    </string>
+
+    <string name="redbulltshirt">
+        Show your support for Max Verstappen for every start, every pit stop and every chequered flag of the 2025 race season with this
+        official Red Bull Racing tee. It features his name and car number on the chest, along with iconic Red Bull and Castore emblems
+        and graphics for a team look you can proudly wear anywhere to show your allegiance.
+    </string>
+
+    <string name="whitepolo">
+        Feel like a bona fide member of the Team in this stylish polo. This iconic garment is synonymous with the F1 image and will strike a great look any time.
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
