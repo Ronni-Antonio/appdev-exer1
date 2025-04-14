@@ -47,7 +47,7 @@ public class DetailFragment extends Fragment {
      * @param param2 Parameter 2.
      * @return A new instance of fragment DetailFragment.
      */
-    // TODO: Rename and change types and number of parameters
+    // TODO: Rename and change types and number of parametersd
     public static DetailFragment newInstance(String param1, String param2) {
         DetailFragment fragment = new DetailFragment();
         Bundle args = new Bundle();
