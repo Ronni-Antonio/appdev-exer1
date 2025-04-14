@@ -17,6 +17,8 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.MyViewHo
     String productPrices[];
     TypedArray productImages;
 
+    ItemClickListener itemClickListener;
+
     public ProductAdapter(Context context){
         myContext = context;
         productNames = myContext.getResources().getStringArray(R.array.productNames);
@@ -49,6 +51,10 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.MyViewHo
             return productNames.length;
     }
 
+
+public void setItemClickListener(ItemClickListener itemClickListener1){
+        itemClickListener = itemClickListener1;
+}
     public class MyViewHolder extends RecyclerView.ViewHolder{
         ImageView ivProduct;
         TextView tvProductName;
@@ -59,8 +65,16 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.MyViewHo
             ivProduct = itemView.findViewById(R.id.imageProduct);
             tvProductName = itemView.findViewById(R.id.textProductName);
             tvProductPrice = itemView.findViewById(R.id.textProductPrice);
+            itemView.setOnClickListener(this::onClick);
 
 
+        }
+
+        private void onClick(View view) {
+
+            if(itemClickListener!=null){
+                itemClickListener.onClick(view,getAdapterPosition());
+            }
         }
     }
 }

@@ -2,7 +2,9 @@ package com.example.finalexer1;
 
 import android.os.Bundle;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -69,6 +71,15 @@ public class ProductFragment extends Fragment {
         rvProduct = root.findViewById(R.id.recyclerViewProduct);
         rvProduct.setLayoutManager(new GridLayoutManager(root.getContext(), 2));
         productAdapter = new ProductAdapter(root.getContext());
+        productAdapter.setItemClickListener(new ItemClickListener() {
+            @Override
+            public void onClick(View view, int position) {
+                Bundle bundle1 = new Bundle();
+                bundle1.putInt("position", position);
+                Navigation.findNavController(view).navigate(R.id.action_productFragment_to_detailFragment,bundle1);
+
+            }
+        });
         rvProduct.setAdapter(productAdapter);
         return root;
     }
